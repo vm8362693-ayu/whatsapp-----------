@@ -1,0 +1,38 @@
+*{
+  margin: 0;padding: 0;
+  font-style: Arial;
+}
+/* Input field ko minimal look dene ke liye */
+.iti {
+    width: 100%;
+}
+
+#phone {
+    border: none;
+    border-bottom: 2px solid #00897b; Teal color;
+    border-top: 2px solid  #00897b;
+    /* padding-top: 20px; */
+  padding: 15px;
+    font-size: 16px;
+    outline: none;
+    width: 250px;
+}
+
+/* Dropdown arrow aur flag alignment */
+.iti__country-list {
+    max-width: 300px;
+}
+.cont{
+  text-align: center;
+  font-weight: 900;
+  padding-bottom: 5px;
+}
+.input{
+  margin : 0px;
+display: flex;
+/* align-content: center; */
+align-items: center;
+/* justify-content: center; */
+/* justify-items: center; */
+flex-direction: column;
+}
